@@ -1,7 +1,7 @@
 # Target Sequence
-Pipeline script collection for NGS Target Sequence
+Pipeline script collection for NGS Target Sequence.
 
-## Brief Workflow
+## Brief workflow
 fastq -> SampleBamCall -> IndividualBamCall -> ListupVariants -> GroupGenotyping -> DrawVAFPlot -> ReviseGenotyping -> vcf
 
 ## Software requirements
@@ -12,7 +12,7 @@ fastq -> SampleBamCall -> IndividualBamCall -> ListupVariants -> GroupGenotyping
 - vcftools
 - cutadapt or fastx_toolkit
 
-This pipeline requires grid Engine environment.
+This pipeline requires Grid Engine environment.
 - Like Sun Grid Engine (Univa Grid Engine, Open Grid Scheduler, etc...)
 
 ## Description of SampleTable
