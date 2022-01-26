@@ -31,3 +31,7 @@ This pipeline requires grid Engine environment.
 - Plate: Plate name
 - Class: Case/Control/NTC/NA
 - Bed: Path to BED file
+
+## Requests
+When using these scripts, please include the following paper as citations.
+- Hum Mol Genet. 2016 Nov 15;25(22):5027-5034
