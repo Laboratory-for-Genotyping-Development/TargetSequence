@@ -11,6 +11,7 @@ fastq -> SampleBamCall -> IndividualBamCall -> ListupVariants -> GroupGenotyping
 - picard-tools
 - vcftools
 - cutadapt or fastx_toolkit
+- R
 
 This pipeline requires Grid Engine environment.
 - Like Sun Grid Engine (Univa Grid Engine, Open Grid Scheduler, etc...)
