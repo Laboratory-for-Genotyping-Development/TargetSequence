@@ -4,17 +4,19 @@ Pipeline script collection for NGS Target Sequence.
 ## Brief workflow
 fastq -> SampleBamCall -> IndividualBamCall -> ListupVariants -> GroupGenotyping -> DrawVAFPlot -> ReviseGenotyping -> vcf
 
+## System requirements
+- OS: Linux (We usually use CentOS. Ubuntu also works probably.)
+- This pipeline works on Grid Engine environment.
+  - Like Sun Grid Engine (Univa Grid Engine, Open Grid Scheduler, etc...)
+
 ## Software requirements
-- GATK3
+- GATK3 (GATK4 does not work because UnifiedGenotyper abolished.)
 - bwa
 - samtools
 - picard-tools
 - vcftools
 - cutadapt or fastx_toolkit
 - R
-
-This pipeline requires Grid Engine environment.
-- Like Sun Grid Engine (Univa Grid Engine, Open Grid Scheduler, etc...)
 
 ## Description of SampleTable
 - Name: Fastq file name
