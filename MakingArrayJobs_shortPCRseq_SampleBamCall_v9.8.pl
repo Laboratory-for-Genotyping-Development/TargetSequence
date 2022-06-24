@@ -11,7 +11,7 @@ use TS_Params;
 # SampleCallの実行有無
 my $job_groups      = 1;                              # まとめて行うジョブ数
 my $sample_table    = $TS_Params::sample_table;
-my $ontarget_script = 'OnTargetProportion_v3.5.pl';
+my $ontarget_script = 'OnTargetProportion_v3.4.pl';
 my $sample_call     = 0;
 my $fastqc          = 0;
 my $keep_untrimmed  = 0;
