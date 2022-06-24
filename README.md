@@ -16,7 +16,7 @@ fastq -> SampleBamCall -> IndividualBamCall -> ListupVariants -> GroupGenotyping
 - picard-tools
 - vcftools
 - cutadapt or fastx_toolkit
-- R
+- R (with 'stringr' package)
 
 ## Description of SampleTable
 - Name: Fastq file name
